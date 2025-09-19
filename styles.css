@@ -1,13 +1,13 @@
 :root{
-      --bg:#0f172a; /* slate-900 */
-      --panel:#111827; /* gray-900 */
-      --muted:#cbd5e1; /* slate-300 */
-      --text:#e5e7eb; /* gray-200 */
-      --primary:#22c55e; /* emerald-500 */
-      --accent:#60a5fa; /* blue-400 */
-      --warn:#f59e0b; /* amber-500 */
-      --danger:#ef4444; /* red-500 */
-    }
+  --bg:#ffffff;   /* blanco */
+  --panel:#f1f5f9; /* gris muy claro (antes #111827) */
+  --muted:#64748b; /* gris medio para texto secundario */
+  --text:#1e293b;  /* gris muy oscuro (casi negro) */
+  --primary:#22c55e; /* verde principal */
+  --accent:#3b82f6;  /* azul brillante */
+  --warn:#f59e0b;    /* amarillo/ámbar */
+  --danger:#ef4444;  /* rojo */
+   }
     *{box-sizing:border-box}
     body{
       margin:0; background:var(--bg); color:var(--text); font-family:ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,"Noto Sans",sans-serif;
@@ -420,4 +420,5 @@ strong {
         grid-template-columns: 1fr 20px 1fr 30px 60px 1fr 30px !important;
         gap: 4px !important;
       }
+
     }
